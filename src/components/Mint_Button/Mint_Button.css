@@ -1,0 +1,42 @@
+.mint-button {
+    margin-top: 25px;
+    width: 30%;
+    font-family: sans-serif;
+    font-size: 26px;
+    line-height: 28px;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 5px;
+    border: solid white;
+  }
+
+/*Media Queries 1024px*/
+@media screen and (max-width: 1024px) {
+    .mint-button {
+      padding: 10px;
+      width: 50%;
+      font-size: 24px;
+      line-height: 24px;
+    }
+}
+
+/*Media Queries 768px*/
+@media screen and (max-width: 768px) {
+    .mint-button {
+      padding: 10px;
+      width: 50%;
+      font-size: 18px;
+      line-height: 18px;
+    }
+}
+
+/*Media Queries 440px*/
+@media screen and (max-width: 440px) {
+    .mint-button {
+      padding: 10px;
+      width: 50%;
+      font-size: 14px;
+      line-height: 16px;
+    }
+}

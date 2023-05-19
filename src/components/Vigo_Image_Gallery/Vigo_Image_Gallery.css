@@ -1,0 +1,23 @@
+.mint_vigo_img {
+    width: 600px;
+  }
+  
+  .mint_vigo_img:hover {
+    transform: scale(1.1);
+    transition-duration: 2s;
+  }
+
+/*Media Queries 768px*/
+@media screen and (max-width: 768px) {
+    .mint_vigo_img {
+      width: 70%;
+    }
+}
+  
+/*Media Queries 440px*/
+@media screen and (max-width: 440px) {
+    .mint_vigo_img {
+      width: 90%;
+      
+    }
+}
