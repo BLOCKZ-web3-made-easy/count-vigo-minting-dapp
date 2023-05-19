@@ -1,4 +1,4 @@
-import king_vigo from './assets/images/king_vigo.png';
+import king_vigo from '../../assets/images/king_vigo.png';
 
 import './App.css';
 
